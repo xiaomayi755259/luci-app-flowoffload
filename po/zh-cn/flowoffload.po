@@ -2,7 +2,7 @@ msgid "Turbo ACC Center"
 msgstr "网络加速"
 
 msgid "Turbo ACC Acceleration Settings"
-msgstr "Turbo ACC 网络加速设置"
+msgstr "Turbo ACC 网络加速"
 
 msgid "Enable"
 msgstr "启用"
@@ -30,3 +30,6 @@ msgstr "上游 DNS 服务器"
 
 msgid "Muitiple DNS server can saperate with ','"
 msgstr "多个上游DNS服务器用','分隔"
+
+msgid "Running Status"
+msgstr "运行状态"
