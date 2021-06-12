@@ -17,7 +17,7 @@ flow.description = translate("Enable software flow offloading for connections. (
 hw = s:option(Flag, "flow_offloading_hw", translate("HWNAT"))
 hw.default = 0
 hw.rmempty = true
-hw.description = translate("Enable Hardware NAT (depends on hw capability")
+hw.description = translate("Enable Hardware NAT (depends on hw capability like MTK 762x)")
 hw:depends("flow_offloading", 1)
 
 bbr = s:option(Flag, "bbr", translate("Enable BBR"))
