@@ -9,12 +9,12 @@ s = m:section(TypedSection, "flow")
 s.addremove = false
 s.anonymous = true
 
-flow = s:option(Flag, "flow_offloading", translate("Enable"))
+flow = s:option(Flag, "flow_offloading", translate("Enable flow offloading"))
 flow.default = 0
 flow.rmempty = false
 flow.description = translate("Enable software flow offloading for connections")
 
-hw = s:option(Flag, "flow_offloading_hw", translate("HWNAT"))
+hw = s:option(Flag, "flow_offloading_hw", translate("Enable HW NAT"))
 hw.default = 0
 hw.rmempty = true
 hw.description = translate("Enable Hardware NAT")
